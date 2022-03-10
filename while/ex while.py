@@ -1,9 +1,9 @@
 # 1
-#  x = 0
-#  while x < 20:
-#      x += 1
-#      if x % 2 != 0:
-#          print(x)
+ x = 0
+ while x < 20:
+     x += 1
+     if x % 2 != 0:
+         print(x)
 
 # 2
 guessnum=int(input("please choose numbetween 1 -1000:"))
