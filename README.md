@@ -1,1 +1,1 @@
-# whie-python
+# while-python
