@@ -21,7 +21,37 @@ while guessnum!=middle:
         print("start=",start,"end=",end,"number=",guessnum)
 print("found",guessnum)
 
+# 3
+n = 0
+sum = 0
+p = 1
+while n < 32:
+    sum += n
+    if (sum >= 20) and (p == 1):
+        print(n)
+        p = True
+        n += 1
+        print(sum)
 
+# 4
+a = int(input("please enter your grade:"))
+while a != 100:
+    print("Retest exam")
+    a = int(input("please enter your grade:"))
+if a == 100:
+    print("your the king")
+num = 0
+a = int(input("please enter number:"))
+while a != 10:
+    a = int(input("please enter number:"))
+if a == 10:
+    print(pow(a, 2))
+
+# 5
+num = 0
+for i in range (1,20):
+    if i%2==0:
+        print(i)
 
 
 
