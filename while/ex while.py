@@ -47,11 +47,7 @@ while a != 10:
 if a == 10:
     print(pow(a, 2))
 
-# 5
-num = 0
-for i in range (1,20):
-    if i%2==0:
-        print(i)
+
 
 
 
